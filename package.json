@@ -4,8 +4,9 @@
   "description": "A containerized development environment for NodeJS and MongoDB using Docker.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dick-harper/docker-node-mongo.git"
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/dick-harper/docker-node-mongo#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "socket.io": "^2.0.2"
   }
 }

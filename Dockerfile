@@ -20,3 +20,5 @@ WORKDIR $HOME/chat
 
 RUN npm install && npm cache clean
 
+CMD ["node", "index.js"]
+
